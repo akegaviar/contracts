@@ -5,7 +5,7 @@ pragma solidity =0.8.12;
 
 import "../../interfaces/IERC20.sol";
 
-import "../ERC721/ContextERC721.sol";
+import "@openzeppelin/contracts/utils/Context.sol";
 
 /**
  * @dev Implementation of the {IERC20} interface.
@@ -32,7 +32,7 @@ import "../ERC721/ContextERC721.sol";
  * functions have been added to mitigate the well-known issues around setting
  * allowances. See {IERC20-approve}.
  */
-contract MockERC20Decimals is ContextERC721, IERC20 {
+contract MockERC20Decimals is Context, IERC20 {
     mapping(address => uint256) private _balances;
 
     mapping(address => mapping(address => uint256)) private _allowances;

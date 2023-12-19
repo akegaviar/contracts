@@ -5,7 +5,7 @@ pragma solidity =0.8.12;
 
 import "../../interfaces/IERC20.sol";
 
-import "../ERC721/Context.sol";
+import "../ERC721/ContextERC721.sol";
 
 /**
  * @dev Implementation of the {IERC20} interface.

@@ -1,7 +1,7 @@
 // BigchainDB GmbH and Ocean Protocol contributors
 // SPDX-License-Identifier: (Apache-2.0 AND MIT)
 
-pragma solidity 0.8.12;
+pragma solidity =0.8.12;
 
 interface IVestingContract{
     function release(address token) external;

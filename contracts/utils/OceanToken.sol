@@ -1,10 +1,10 @@
-pragma solidity 0.8.12;
+pragma solidity =0.8.12;
 // Copyright BigchainDB GmbH and Ocean Protocol contributors
 // SPDX-License-Identifier: (Apache-2.0 AND CC-BY-4.0)
 // Code is Apache-2.0 and docs are CC-BY-4.0
 
 import '@openzeppelin/contracts/token/ERC20/extensions/ERC20Capped.sol';
-import "@openzeppelin/contracts/access/Ownable.sol";
+import "@openzeppelin/contracts/utils/Ownable.sol";
 import "@openzeppelin/contracts/utils/math/SafeMath.sol";
 
 

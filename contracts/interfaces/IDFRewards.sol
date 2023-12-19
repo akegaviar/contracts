@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: (Apache-2.0 AND CC-BY-4.0)
-pragma solidity 0.8.12;
+pragma solidity =0.8.12;
 
 interface IDFRewards {
     event Allocated(address[] tos, uint256[] values, address tokenAddress);

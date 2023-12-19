@@ -1,4 +1,4 @@
-pragma solidity 0.8.12;
+pragma solidity =0.8.12;
 // Copyright BigchainDB GmbH and Ocean Protocol contributors
 // SPDX-License-Identifier: (Apache-2.0 AND CC-BY-4.0)
 // Code is Apache-2.0 and docs are CC-BY-4.0
@@ -6,7 +6,7 @@ pragma solidity 0.8.12;
 import "./utils/Deployer.sol";
 import "./interfaces/IFactory.sol";
 import "./interfaces/IERC721Template.sol";
-import "@openzeppelin/contracts/access/Ownable.sol";
+import "./utils/Ownable.sol";
 import "./interfaces/IERC20Template.sol";
 import "./interfaces/IERC20.sol";
 import "./utils/SafeERC20.sol";
